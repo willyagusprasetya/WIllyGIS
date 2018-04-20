@@ -1,0 +1,364 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.0.0-Girona" projectname="">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer name="jalan pantura" source="./jalan pantura.shp" expanded="1" providerKey="ogr" checked="Qt::Checked" id="jalan_pantura_f0ab4a5c_1d96_4dcd_b8ec_366958ae4da0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="OpenStreetMap" source="type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" expanded="1" providerKey="wms" checked="Qt::Checked" id="OpenStreetMap_5f38fe20_d320_4451_9ec7_64fc29004142">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>OpenStreetMap_5f38fe20_d320_4451_9ec7_64fc29004142</item>
+      <item>jalan_pantura_f0ab4a5c_1d96_4dcd_b8ec_366958ae4da0</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" mode="2" tolerance="12" enabled="0" intersection-snapping="0" type="1">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" enabled="0" type="1" units="1" id="jalan_pantura_f0ab4a5c_1d96_4dcd_b8ec_366958ae4da0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>12540537.71303155086934566</xmin>
+      <ymin>-805750.5369586581364274</ymin>
+      <xmax>12540741.54510857723653316</xmax>
+      <ymax>-805528.3909160727635026</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="jalan pantura" open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="jalan_pantura_f0ab4a5c_1d96_4dcd_b8ec_366958ae4da0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="OpenStreetMap" open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="OpenStreetMap_5f38fe20_d320_4451_9ec7_64fc29004142"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer refreshOnNotifyEnabled="0" autoRefreshEnabled="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" type="raster" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>OpenStreetMap_5f38fe20_d320_4451_9ec7_64fc29004142</id>
+      <datasource>type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OpenStreetMap</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="standar">
+        <map-layer-style name="standar"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer band="1" alphaBand="-1" opacity="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeOn="0" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer geometry="Line" simplifyLocal="1" readOnly="0" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" simplifyMaxScale="1" minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" type="vector" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>110.38408381339533548</xmin>
+        <ymin>-7.21799225952446655</ymin>
+        <xmax>112.65491957501461684</xmax>
+        <ymax>-6.63026166878861289</ymax>
+      </extent>
+      <id>jalan_pantura_f0ab4a5c_1d96_4dcd_b8ec_366958ae4da0</id>
+      <datasource>./jalan pantura.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>jalan pantura</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="standar">
+        <map-layer-style name="standar"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" type="line">
+            <layer class="SimpleLine" pass="0" enabled="1" locked="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="143,112,76,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nama">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="id"/>
+        <alias name="" index="1" field="nama"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="id" expression=""/>
+        <default applyOnUpdate="0" field="nama" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" field="id" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="nama" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="id" desc=""/>
+        <constraint exp="" field="nama" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="id" hidden="0" width="-1" type="field"/>
+          <column name="nama" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="OpenStreetMap_5f38fe20_d320_4451_9ec7_64fc29004142"/>
+    <layer id="jalan_pantura_f0ab4a5c_1d96_4dcd_b8ec_366958ae4da0"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PAL>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <SearchMethod type="int">0</SearchMethod>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+    </PAL>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>
